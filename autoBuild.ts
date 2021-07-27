@@ -3,7 +3,7 @@ import * as fs from "https://deno.land/std@0.103.0/fs/mod.ts";
 import * as colors from "https://deno.land/std@0.103.0/fmt/colors.ts";
 
 //! load config
-import * as c from "./config_bars.ts";
+import * as c from "./config.ts";
 
 //! cook the files
 console.log(colors.bgYellow(colors.black("Cooking...")))
